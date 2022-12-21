@@ -39,6 +39,16 @@ Link para abrir o projeto no navegador:
 http://127.0.0.1:8000/api/
 ```
 
+Rota para abrir os produtos:
+```http
+http://127.0.0.1:8000/api/products/
+```
+
+Rota para buscar um produto por 'id':
+```http
+http://127.0.0.1:8000/api/products/1/
+```
+
 
 ### Participantes: 
 |Nome|Email|Presente|Função|Curso|
