@@ -23,12 +23,15 @@ def api_home(request, *args, **kwargs):
 
 
 
-""" @api_view(["GET"])
-def api_home(request, *args, **kwargs):
-    instance = Product.objects.all().order_by("?").first()
-    data = {}
-    if instance:
-        # data= model_to_dict(instance, fields=['id', 'title', 'price'])
-        data = ProtuctSerializer(instance).data
-    return Response(data) """
+@api_view(["GET"])
+def easter_egg(request, *args, **kwargs):
+
+    data = {
+        'welcome': 'Bem vindo a API com Django',
+        'author': 'Gabriel Santos',
+        'start': '19/12/2022',
+        'last_update': '21/12/2022'
+        }
+
+    return Response(data, status=200) 
    
