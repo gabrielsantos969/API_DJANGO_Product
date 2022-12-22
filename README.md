@@ -2,7 +2,7 @@
 
 > Status do Projeto: Em desenvolvimento :warning:
 
-Projeto com Django, representando uma REST API de produtos com o salvamento no banco de dados integrado ao Django
+Projeto com Django, representando uma REST API de produtos com o salvamento no banco de dados integrado ao Django, sendo utilizado o rest_framework para uma melhor visualização dos dados e dos testes das rotas.
 
 ### No terminal clone o projeto:
 ```git
@@ -48,6 +48,16 @@ Rota para buscar um produto por 'id':
 ```http
 http://127.0.0.1:8000/api/products/1/
 ```
+
+Rota para fazer update em um produto:
+´´´http
+http://127.0.0.1:8000/api/products/1/update/"
+´´´
+
+Rota para deletar um produto:
+´´´http
+http://127.0.0.1:8000/api/products/1/delete/"
+´´´
 
 
 ### Participantes: 
