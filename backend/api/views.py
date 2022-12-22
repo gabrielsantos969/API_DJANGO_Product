@@ -17,7 +17,7 @@ def api_home(request, *args, **kwargs):
         
         #instance = serializer.save()
         print(serializer.data)
-        return JsonResponse(serializer.data)
+        return Response(serializer.data)
 
     return Response({"invalid": "Not good data"}, status=400)
 
