@@ -50,14 +50,15 @@ http://127.0.0.1:8000/api/products/1/
 ```
 
 Rota para fazer update em um produto:
-´´´http
+```http
 http://127.0.0.1:8000/api/products/1/update/"
-´´´
+```
+
 
 Rota para deletar um produto:
-´´´http
+```http
 http://127.0.0.1:8000/api/products/1/delete/"
-´´´
+```
 
 
 ### Participantes: 
